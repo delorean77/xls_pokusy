@@ -1,0 +1,748 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Miroslav Roška</Author>
+  <LastAuthor>Miroslav Roška</LastAuthor>
+  <Created>2018-02-10T09:27:24Z</Created>
+  <LastSaved>2018-02-10T10:19:15Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9048</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Raňajky">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="126" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.4">
+   <Column ss:Width="120.60000000000001"/>
+   <Column ss:Width="80.400000000000006"/>
+   <Row>
+    <Cell><Data ss:Type="String">Položka</Data></Cell>
+    <Cell><Data ss:Type="String">Kategória</Data></Cell>
+    <Cell><Data ss:Type="String">Množstvo</Data></Cell>
+    <Cell><Data ss:Type="String">MJ</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Arašidové maslo</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Arašidové maslo Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-1]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Balkánsky syr</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Balkánsky syr Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-1]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Banán</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Banán</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Banán</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Banán</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Banán Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-4]C:R[-1]C)"><Data
+      ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Bezlepkové ovsené vločky</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Bezlepkové ovsené vločky</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Bezlepkové ovsené vločky</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Bezlepkové ovsené vločky</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Bezlepkové ovsené vločky Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-4]C:R[-1]C)"><Data
+      ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Biela paprika</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">0.25</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Biela paprika</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">0.25</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Biela paprika Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">0.5</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Celoznné pečivo</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Celoznné pečivo Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-1]C:R[-1]C)"><Data
+      ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Celozrnná múka</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Celozrnná múka Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-1]C:R[-1]C)"><Data
+      ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čaj</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">vrecká</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čaj</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">vrecká</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čaj</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">vrecká</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čaj</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">vrecká</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čaj</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">vrecká</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čaj</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">vrecká</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čaj</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">vrecká</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Čaj Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-7]C:R[-1]C)"><Data
+      ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Červená reďkovka</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Červená reďkovka</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Červená reďkovka Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čučoriedky</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">bal</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čučoriedky</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">bal</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čučoriedky</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">bal</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Čučoriedky</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">bal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Čučoriedky Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-4]C:R[-1]C)"><Data
+      ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Hrozienka</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Hrozienka</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Hrozienka</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Hrozienka</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hrozienka Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-4]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Cherry paradajky</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Cherry paradajky</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Cherry paradajky Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Jarná cibuľka</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Jarná cibuľka</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Jarná cibuľka Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Javorový sirup</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Javorový sirup</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Javorový sirup</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Javorový sirup</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Javorový sirup</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Javorový sirup Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Kapia</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Kapia</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Kapia Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Káva</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Káva</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Káva</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Káva</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Káva</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Káva</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Káva</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Káva Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-7]C:R[-1]C)"><Data
+      ss:Type="Number">98</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Kečup</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Kečup Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-1]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Maliny</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">bal</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Maliny</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">bal</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Maliny</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">bal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Maliny Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-3]C:R[-1]C)"><Data
+      ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Mlieko</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">ml</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Mlieko</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">ml</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Mlieko</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">ml</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Mlieko</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Mlieko</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">ml</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Mlieko</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Mlieko</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="String">ml</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Mlieko</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">ml</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Mlieko Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-8]C:R[-1]C)"><Data
+      ss:Type="Number">800</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Olivový olej</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Olivový olej Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-1]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Ovsené vločky</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Ovsené vločky</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Ovsené vločky</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ovsené vločky Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-3]C:R[-1]C)"><Data
+      ss:Type="Number">225</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Para orechy</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Para orechy</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Para orechy</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Para orechy</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Para orechy Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-4]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Párky</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="String">bal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Párky Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-1]C:R[-1]C)"><Data
+      ss:Type="Number">0.5</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Rožok</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Rožok</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Rožok Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Slnečnicový olej</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Slnečnicový olej Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-1]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Sušená slanina</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Sušená slanina</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">g</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Sušená slanina Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Sušené brusnice</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Sušené brusnice</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Sušené brusnice</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Sušené brusnice</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Sušené brusnice Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-4]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Škorica</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Škorica</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Škorica</Data></Cell>
+    <Cell><Data ss:Type="String">Štvrtok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Škorica</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Škorica</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Škorica Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Uhorka</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Uhorka</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Uhorka Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Vajíčka</Data></Cell>
+    <Cell><Data ss:Type="String">Utorok raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Vajíčka</Data></Cell>
+    <Cell><Data ss:Type="String">Sobota raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Vajíčka</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Vajíčka Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-3]C:R[-1]C)"><Data
+      ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Vlašské orechy</Data></Cell>
+    <Cell><Data ss:Type="String">Pondelok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Vlašské orechy</Data></Cell>
+    <Cell><Data ss:Type="String">Streda raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Vlašské orechy</Data></Cell>
+    <Cell><Data ss:Type="String">Piatok raňajky</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Vlašské orechy</Data></Cell>
+    <Cell><Data ss:Type="String">Nedeľa raňajky</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Vlašské orechy Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-4]C:R[-1]C)"><Data
+      ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Grand Total</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=SUBTOTAL(9,R[-124]C:R[-2]C)"><Data
+      ss:Type="Number">1701</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1:R1048576</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Obed">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.4">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Večera">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.4">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
